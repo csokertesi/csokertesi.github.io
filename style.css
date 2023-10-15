@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(0, 7, 37);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav{
+    background-color: rgb(12, 4, 90);
+    color: white;
+    box-shadow: 0px 3px 5px rgba(0,0,0,0.7);
+}
+
+header
+{
+    padding: 5px;
+    font-size: 1.25rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.post{
+    background-color: rgb(12, 4, 90);
+    color: white;
+    width: fit-content;
+    padding: 15px;
+    transform: translateX(-50%);
+    margin-left: 50%;
+    margin-top: 3rem;
+    border-radius: 10px;
+    box-shadow: 0 0 6px rgba(255,255,255,0.4);
+}
+
+.post-title
+{
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.post-content{
+    text-align: justify;
+}
